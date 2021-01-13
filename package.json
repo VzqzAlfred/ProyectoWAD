@@ -1,0 +1,27 @@
+{
+  "name": "ProyectoWAD",
+  "version": "1.0.0",
+  "description": "Project start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VzqzAlfred/ProyectoWAD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VzqzAlfred/ProyectoWAD/issues"
+  },
+  "homepage": "https://github.com/VzqzAlfred/ProyectoWAD#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
