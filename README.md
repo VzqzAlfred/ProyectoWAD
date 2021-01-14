@@ -10,5 +10,16 @@ npm i nodemon --save
 change: script  test : , dev: "nodemon app.js"
 
 npm i ejs --save
- ************************************************************************
+*************************************************************************
 
+
+
+************************** Frontend *************************************
+
+create a mkdir client
+cd client/
+npx create-react-app my-app
+
+
+CHANGE TO PROYECTOWAD: and will add 
+npm i concurrently --save

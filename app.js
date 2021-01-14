@@ -3,12 +3,13 @@ app = express()
 
 require('dotenv').config()
 app.set('view engine', 'ejs')
-app.use('/', require('./routes/hello'))
+app.use('/api/', require('./routes/hello'))
 
  
-const PORT = process.env.PORT || 3005
+const PORT = process.env.PORT || 3001
 
 app.listen(PORT, () => {
-    console.log(`Listen on port: ${PORT}`)
+    const url = `http://localhost:${PORT}`;
+    console.log(`Listen on port: ${url}`);
 })
 

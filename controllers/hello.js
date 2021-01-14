@@ -1,3 +1,5 @@
 exports.hello = (req, res) => {
-    res.render('hello')
+    res.json({
+        "hello": ["Alfred", "jeje"]
+    })
 };

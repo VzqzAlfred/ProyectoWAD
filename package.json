@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "client": "cd client && cd my-app && npm start",
+    "start": "concurrently \"npm run dev\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/VzqzAlfred/ProyectoWAD#readme",
   "dependencies": {
+    "concurrently": "^5.3.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
