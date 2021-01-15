@@ -4,7 +4,7 @@ import {useEffect, useState} from 'react';
 
 /*      Conetion with Nodejs: no success */
 
-export const Hello = ()=> {
+export const Header = ()=> {
     const [initialState, setInitialState] = useState([]);
 
     useEffect(() =>{
@@ -25,3 +25,5 @@ export const Hello = ()=> {
         </div>*/
     )
 }
+
+
