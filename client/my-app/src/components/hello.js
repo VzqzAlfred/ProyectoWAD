@@ -17,8 +17,11 @@ export const Hello = ()=> {
 
     console.log(initialState);
     return (
-        <div>
-            <p>Hi</p>
+
+        <p>Hi</p>
+        
+        /*<div>
             {initialState.length > 0 && initialState.map((e,i) => <li key={i}>{e}</li>)}
-        </div>)
+        </div>*/
+    )
 }
