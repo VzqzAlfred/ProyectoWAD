@@ -2,6 +2,7 @@ import React from 'react';
 import {useEffect, useState} from 'react';
 
 
+/*      Conetion with Nodejs: no success */
 
 export const Hello = ()=> {
     const [initialState, setInitialState] = useState([]);
@@ -14,9 +15,10 @@ export const Hello = ()=> {
         }).then(jsonResponse => setInitialState(jsonResponse.hello))
     },[])
 
-    console.log(initialState.length);
+    console.log(initialState);
     return (
         <div>
+            <p>Hi</p>
             {initialState.length > 0 && initialState.map((e,i) => <li key={i}>{e}</li>)}
         </div>)
 }
