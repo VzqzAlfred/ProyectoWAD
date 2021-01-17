@@ -22,9 +22,9 @@ export const Header = () => {
             <div>
                 <h1>Estados de la República</h1>
                 <div className="Grid">
-                    <ul>
-                        <li><a href='#' onclick="console.log('The link was clicked.'); return false">Home</a></li>
-                        <li><a href='#' onclick="console.log('The link was clicked.'); return false">Lista de Categorías</a></li>
+                    <ul className="template">
+                        <li className="item"><a href='#' onclick="console.log('The link was clicked.'); return false">Home</a></li>
+                        <li className="item"><a href='#' onclick="console.log('The link was clicked.'); return false">Lista de Categorías</a></li>
                     </ul>
                 </div>
             </div>
