@@ -6,30 +6,33 @@
 header{
     background-color: #30475e;
     min-height: 18vh;
+    color: #ddd
 }
 
 h1{
-    color: #ddd;
+    font-size: 2.2vmax;
+    font-family: Helvetica;
 }
 
 a{
     text-decoration: none;
-    color: #DDD;
+    color: #ddd;
 }
 
 ul{
     list-style: none;
 }
 
-.Grid{
+.container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 35px;
 }
 
 .item{
-    border: 1px solid beige;
     display: grid;
-    grid-template-columns: auto-fill auto-fill;
+    grid-template-columns: auto-fill auto-fill auto-fill;
     grid-template-rows:  2fr;
     grid-gap: 15px;
 }

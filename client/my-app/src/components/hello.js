@@ -19,13 +19,21 @@ export const Header = () => {
     console.log(initialState);
     return (
         <header className="header">
-            <div>
-                <h1>Estados de la República</h1>
-                <div className="Grid">
-                    <ul className="template">
-                        <li className="item"><a href='#' onclick="console.log('The link was clicked.'); return false">Home</a></li>
-                        <li className="item"><a href='#' onclick="console.log('The link was clicked.'); return false">Lista de Categorías</a></li>
+            <div className="container">
+
+                <div className="item">
+                    <h1>Estados de la República</h1>
+                </div>
+
+                <div className="item">
+                    <ul className="sections">
+                        <li className="section-item"><a href='#' onclick="console.log('The link was clicked.'); return false">Home</a></li>
+                        <li className="section-item"><a href='#' onclick="console.log('The link was clicked.'); return false">Lista de Categorías</a></li>
                     </ul>
+                </div>
+
+                <div className="item">
+                    button
                 </div>
             </div>
         </header>
