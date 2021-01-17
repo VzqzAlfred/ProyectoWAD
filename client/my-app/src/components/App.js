@@ -4,7 +4,7 @@ import { Header } from './hello';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
     </div>
   );

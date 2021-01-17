@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #30475e;
+    min-height: 18vh;
+}
+
+h1{
+    color: #ddd;
+}
+
+a{
+    text-decoration: none;
+    color: #DDD;
+}
+
+ul{
+    list-style: none;
+}

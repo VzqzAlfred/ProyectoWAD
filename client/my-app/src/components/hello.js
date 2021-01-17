@@ -1,5 +1,6 @@
 import React from 'react';
 import {useEffect, useState} from 'react';
+import './Header/Header.css'
 
 
 /*      Conetion with Nodejs: no success */
@@ -17,9 +18,15 @@ export const Header = ()=> {
 
     console.log(initialState);
     return (
-
-        <p>Hi</p>
-        
+    <header className="header">
+        <div>
+            <h1>Estados de la República</h1>
+            <ul>
+                <li><a href='#' onclick="console.log('The link was clicked.'); return false">Home</a></li>
+                <li><a href='#' onclick="console.log('The link was clicked.'); return false">Lista de Categorías</a></li>
+            </ul>
+        </div>
+    </header>
         /*<div>
             {initialState.length > 0 && initialState.map((e,i) => <li key={i}>{e}</li>)}
         </div>*/
