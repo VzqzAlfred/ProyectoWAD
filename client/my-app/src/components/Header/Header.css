@@ -24,13 +24,12 @@ ul{
 .Grid{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .item{
     border: 1px solid beige;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr;
-    gap: 15px;
+    grid-template-columns: auto-fill auto-fill;
+    grid-template-rows:  2fr;
+    grid-gap: 15px;
 }
