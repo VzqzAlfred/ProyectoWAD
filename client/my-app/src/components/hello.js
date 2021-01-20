@@ -27,8 +27,8 @@ export const Header = () => {
 
                 <div className="item">
                     <ul className="sections">
-                        <li className="section-item"><a href='#' onclick="console.log('The link was clicked.'); return false">Home</a></li>
-                        <li className="section-item"><a href='#' onclick="console.log('The link was clicked.'); return false">Lista de Categorías</a></li>
+                        <li className="section-item"><a href='#' onClick="{<Images />}">Home</a></li>
+                        <li className="section-item"><a href='#' onClick="{<List />}">Lista de Categorías</a></li>
                     </ul>
                 </div>
 
