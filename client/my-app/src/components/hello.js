@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import './Header/Header.css'
+import { Map } from './Map/Map';
 
 
 /*      Conetion with Nodejs: no success */
@@ -27,19 +28,17 @@ export const Header = () => {
 
                 <div className="item">
                     <ul className="sections">
-                        <li className="section-item"><a href='#' onClick="{<Images />}">Home</a></li>
+                        <li className="section-item"><a onClick={<Map />}>Home</a></li>
                         <li className="section-item"><a href='#' onClick="{<List />}">Lista de Categorías</a></li>
                     </ul>
                 </div>
 
-                <div className="item">
-                    button
-                </div>
+                    <div className="item">
+                        log in
+                    </div>
             </div>
-        </header>
-        /*<div>
-            {initialState.length > 0 && initialState.map((e,i) => <li key={i}>{e}</li>)}
-        </div>*/
+        </header> 
+    
     )
 }
 
