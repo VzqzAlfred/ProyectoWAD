@@ -1,0 +1,30 @@
+/*img{
+    min-width: 5vw;
+    display: grid;
+    margin: 3.5vh auto;
+    border-radius: 0.8rem;;  
+}*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table{
+    text-align: center;
+    font-size: 1.5em;
+    margin: 7.5vh auto;
+}
+
+
+th{
+    background-color: #f05454;
+    color: #fff;
+}
+
+td{
+    border: 1px solid #30475e;
+}
+
+.id-color{
+    color: #f05454;
+}
